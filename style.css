@@ -47,7 +47,7 @@ footer {
 
 .icon-bar {
   width: 100%; /* Full-width */
-  background-color: rgb(211, 37, 37); /* Dark-grey background */
+  background-color: rgb(255, 255, 255); /* Dark-grey background */
   overflow: auto; /* Overflow due to float */
 }
 
@@ -57,16 +57,16 @@ footer {
   width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
   padding: 12px 0; /* Some top and bottom padding */
   transition: all 0.3s ease; /* Add transition for hover effects */
-  color: white; /* White text color */
+  color: black; /* White text color */
   font-size: 36px; /* Increased font size */
 }
 
 .icon-bar a:hover {
-  background-color: #04AA6D; /* Add a hover color */
+  background-color: #04a918; /* Add a hover color */
 }
 
 .active {
-  background-color: #04AA6D; /* Add an active/current color */
+  background-color: #04a90f; /* Add an active/current color */
 }
 
 
@@ -117,6 +117,8 @@ a {
 p {
   padding: 5px;
   margin: 5px;
+  color: white;
+  background-color:black;
 }
 
 a:hover {
@@ -150,9 +152,11 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: rgb(43, 150, 16);
+    background-color: rgb(16, 152, 25);
 }
 
+
+ 
 
 
 
